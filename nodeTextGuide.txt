@@ -1,0 +1,41 @@
+TO START WITH NODE JS
+
+RUN npm init
+
+It will Show something like this
+-package name:(current folder name) =>YOU CAN RENAME THE PACKAGE NAME or Just Press Enter to Use Default
+-version:(current version) =>
+-description:
+-entry point:(index.js) => THE MAIN FILE, IT USED TO COMPILE ALL PACKAGE YOU MAKE(YOU CAN RENAME IT);
+
+
+javascript
+-require('./location') => to import module
+-module.exports = var => to export module
+
+CMD
+
+npm install =>install all depedencies listed in package.json
+
+CUSTOM SCRIPT
+
+package.json{
+    ....
+    "script":{
+        "name_of_custom_script":"script"
+    }
+    ....
+}
+
+//Execute custom script
+npm //Custom script HERE
+
+//Example
+package.json{
+    ....
+    "script":{
+        "dang":"nodemon test.js"
+    }
+    ....
+}
+npm dang //It will Run nodemon test.js

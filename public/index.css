@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    background-color: green;
+}
+
+nav ul{
+    width:100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li{
+    
+    padding: 10px 15px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #f4f4f4;
+
+    cursor: pointer;
+}
+
+article section{
+    border: gray 4px groove;
+    border-radius: 50px;
+}
